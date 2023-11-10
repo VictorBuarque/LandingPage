@@ -2,7 +2,7 @@
 
 Esta página foi criada com HTML, CSS, SASS e utiliza a biblioteca AOS para animações incríveis. Leia abaixo para obter informações sobre como visualizar, modificar e contribuir para este projeto.
 
-Para visualizar bastar [clicar aqui: ](https://landing-page-five-red-34.vercel.app/)
+Para visualizar a pagina:  [Click aqui: ](https://landing-page-five-red-34.vercel.app/)
 
 # Visualização
 Para visualizar a Landing Page, basta abrir o arquivo index.html no seu navegador favorito. Certifique-se de que todos os arquivos, incluindo as pastas de estilos e scripts, estejam na mesma pasta.
