@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +18,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
     <title>VGRBS-SERVIÇOS</title>
   </head>
   <body>
@@ -24,7 +26,7 @@
     <div class="bg-home">
       <header>
         <nav class="header-content container">
-          <div class="header-icons">
+          <div class="header-icons" data-aos="fade-right" data-aos-duration="1500">
             <a href="#">
               <i class="fa-brands fa-instagram fa-2x"></i>
             </a>
@@ -38,17 +40,20 @@
               <i class="fa-brands fa-linkedin fa-2x"></i>
             </a>
           </div>
-          <div class="header-logo">
+          <div class="header-logo" data-aos="fade-down" data-aos-delay="300">
             <img src="assets/images/logo.svg" alt="Logo da barbearia" />
           </div>
-          <div>
-            <a class="header-button" href="#"> Agendar horário </a>
+          <div data-aos="fade-left" data-aos-duration="1500">
+            <a class="header-button" href="#" > Agendar horário </a>
           </div>
         </nav>
-        <main class="hero container">
+        <main class="hero container" data-aos="fade-up" data-aos-delay="300">
           <h1>Estilo é para poucos</h1>
           <p>Horário de Funcionamento: 09:00 ás 19:00</p>
-          <a href="#" class="button-contact" target="_blank">
+          <a 
+          href="https://api.whatsapp.com/send/?phone=55710000000..&text=quero%20fazer%20um%20agendamento" 
+          class="button-contact" 
+          target="_blank">
             Agendar Horário
           </a>
         </main>
@@ -56,10 +61,10 @@
       <!--Sobre-->
       <section class="about">
         <div class="container about-content">
-          <div>
+          <div data-aos="fade-right">
             <img src="assets/images/images.svg" alt="Imagem da barbearia" />
           </div>
-          <div class="about-description">
+          <div class="about-description" data-aos="fade-left">
             <h2>Sobre</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae
@@ -71,8 +76,9 @@
           </div>
         </div>
       </section>
+      <!--SERVICES-->
       <section class="services">
-        <div class="services-content container">
+        <div class="services-content container" data-aos="zoom-up" >
           <h2>Serviços</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. At,
@@ -82,21 +88,21 @@
           </p>
         </div>
         <section class="haircuts">
-          <div class="haircut">
-            <img src="assets/images/corte1.png" alt="Corte Normal" />
+          <div class="haircut" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="500">
+            <img src="assets/images/corte1.png" alt="Corte Normal"  />
             <div class="haircut-info">
               <strong> Corte Normal </strong>
               <button>R$25,00</button>
             </div>
           </div>
-          <div class="haircut">
+          <div class="haircut" data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="500" >
             <img src="assets/images/corte2.png" alt="Corte Normal" />
             <div class="haircut-info">
               <strong> Barba Normal </strong>
               <button>R$20,00</button>
             </div>
-          </div >
-          <div class="haircut">
+          </div>
+          <div class="haircut" data-aos="zoom-in-up" data-aos-delay="600" data-aos-duration="500">
             <img src="assets/images/corte3.png" alt="Corte Normal" />
             <div class="haircut-info">
               <strong> Corte + Barba </strong>
@@ -105,6 +111,57 @@
           </div>
         </section>
       </section>
+      <!--FOOTER-->
+      <div class="services" data-aos="fade-down">
+        <h2>Venha conhecer</h2>
+      </div>
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d283.5041119994705!2d-38.33990978470557!3d-12.939039812182983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617c59895d629%3A0x27294d7e2b448e49!2sLa%20Mafia%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1699552867098!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          data-aos="fade-out"
+        >
+      </iframe>
+      <footer class="footer" data-aos="fade-up" data-aos-duration="500">
+        <div class="footer-icons" >
+          <a href="#">
+            <i class="fa-brands fa-instagram fa-2x"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-facebook fa-2x"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-twitter fa-2x"></i>
+          </a>
+          <a href="#">
+            <i class="fa-brands fa-linkedin fa-2x"></i>
+          </a>
+        </div>
+        <div>
+            <img 
+            src="assets/images/logo.svg" 
+            alt="Logo Barbearia">
+        </div>
+        <p>Copyright 2023 - Dev Barbearia - Todos os direitos Reservados</p>
+      </footer>
+       
+        <!--Button Zap-->
+      <a href="https://api.whatsapp.com/send/?phone=55710000000..&text=quero%20fazer%20um%20agendamento" 
+        class="btn-whatsapp"
+        target="_blank"
+        data-aos="fade-in"
+        data-aos-delay="300">
+        <img 
+        src="assets/images/whatssapp.svg" 
+        alt="botão whatsapp">
+        <span class="tooltip-text">Agende seu Horário</span>
+      </a>
+      </div>
     </div>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
